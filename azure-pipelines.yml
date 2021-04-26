@@ -19,6 +19,6 @@ steps:
     generatorSource: 'FeatureFolder'
     projectFilePath: 'SpecFlowProject'
     projectName: 'SpecFlowProject'
-    testExecutionJson: 'SpecFlowProject\bin\Debug\net.5.0\TestExecution.json'
+    testExecutionJson: 'SpecFlowProject/bin/Debug/net.5.0/TestExecution.json'
     projectLanguage: 'en'
-    bindingAssemblies: 'SpecFlowProject\bin\Debug\net.5.0\SpecFlowProject.dll'
+    bindingAssemblies: 'SpecFlowProject/bin/Debug/net.5.0/SpecFlowProject.dll'
