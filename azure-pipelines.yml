@@ -11,7 +11,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
+- script: dotnet test
   displayName: 'Run a one-line script'
 
 - task: SpecFlowPlus@0
