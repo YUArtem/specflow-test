@@ -592,6 +592,12 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Pickles/2.21.1": {
+        "type": "package"
+      },
+      "Pickles.CommandLine/2.21.1": {
+        "type": "package"
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -2931,6 +2937,77 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.17.0.nupkg.sha512",
         "nunit3testadapter.nuspec"
+      ]
+    },
+    "Pickles/2.21.1": {
+      "sha512": "ESeFyF9uCf1oBCnu+NSZIt03mN02knuCHeGb0NwJr/G4ga/9bPvsWWASYDO1ISz7aUDZvxVQ5HtOfjb2hLeNlQ==",
+      "type": "package",
+      "path": "pickles/2.21.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "pickles.2.21.1.nupkg.sha512",
+        "pickles.nuspec",
+        "tools/Autofac.dll",
+        "tools/ClosedXML.dll",
+        "tools/DocumentFormat.OpenXml.dll",
+        "tools/FeatureSwitcher.dll",
+        "tools/Gherkin.dll",
+        "tools/Jint.dll",
+        "tools/MarkdownDeep.dll",
+        "tools/NLog.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Cucumber.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Dhtml.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Excel.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Html.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Markdown.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Word.dll",
+        "tools/PicklesDoc.Pickles.Library.dll",
+        "tools/PicklesDoc.Pickles.ObjectModel.dll",
+        "tools/PicklesDoc.Pickles.PowerShell.dll",
+        "tools/PicklesDoc.Pickles.TestFrameworks.dll",
+        "tools/Strike.Jint.dll",
+        "tools/System.IO.Abstractions.dll",
+        "tools/init.ps1"
+      ]
+    },
+    "Pickles.CommandLine/2.21.1": {
+      "sha512": "jNtrlK2RJqy6/a9cldbAg1JtNfK+cxr5EcJEmTYm2BZnjAsTKlozRrJtvTtB/nm45509gB1njgHg8UpLvBZ/Dg==",
+      "type": "package",
+      "path": "pickles.commandline/2.21.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "pickles.commandline.2.21.1.nupkg.sha512",
+        "pickles.commandline.nuspec",
+        "tools/Autofac.dll",
+        "tools/ClosedXML.dll",
+        "tools/DocumentFormat.OpenXml.dll",
+        "tools/FeatureSwitcher.dll",
+        "tools/Gherkin.dll",
+        "tools/Jint.dll",
+        "tools/MarkdownDeep.dll",
+        "tools/NDesk.Options.dll",
+        "tools/NLog.config",
+        "tools/NLog.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Cucumber.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Dhtml.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Excel.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Html.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Json.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Markdown.dll",
+        "tools/PicklesDoc.Pickles.DocumentationBuilders.Word.dll",
+        "tools/PicklesDoc.Pickles.Library.dll",
+        "tools/PicklesDoc.Pickles.ObjectModel.dll",
+        "tools/PicklesDoc.Pickles.TestFrameworks.dll",
+        "tools/Strike.Jint.dll",
+        "tools/System.IO.Abstractions.dll",
+        "tools/pickles.exe"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -6984,6 +7061,8 @@
       "FluentAssertions >= 5.10.3",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit3TestAdapter >= 3.17.0",
+      "Pickles >= 2.21.1",
+      "Pickles.CommandLine >= 2.21.1",
       "SpecFlow.NUnit >= 3.7.38",
       "SpecFlow.Plus.LivingDocPlugin >= 3.7.10",
       "nunit >= 3.13.1"
@@ -6995,19 +7074,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SpecFlowProject\\SpecFlowProject.csproj",
+      "projectUniqueName": "C:\\Projects\\specflow-test\\SpecFlowProject\\SpecFlowProject.csproj",
       "projectName": "SpecFlowProject",
-      "projectPath": "C:\\Projects\\SpecFlowProject\\SpecFlowProject.csproj",
+      "projectPath": "C:\\Projects\\specflow-test\\SpecFlowProject\\SpecFlowProject.csproj",
       "packagesPath": "C:\\Users\\accou\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SpecFlowProject\\obj\\",
+      "outputPath": "C:\\Projects\\specflow-test\\SpecFlowProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\accou\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\accou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7045,6 +7126,14 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.17.0, )"
+          },
+          "Pickles": {
+            "target": "Package",
+            "version": "[2.21.1, )"
+          },
+          "Pickles.CommandLine": {
+            "target": "Package",
+            "version": "[2.21.1, )"
           },
           "SpecFlow.NUnit": {
             "target": "Package",

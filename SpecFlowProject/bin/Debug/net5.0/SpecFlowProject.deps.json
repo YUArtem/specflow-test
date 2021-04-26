@@ -13,6 +13,8 @@
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "NUnit3TestAdapter": "3.17.0",
+          "Pickles": "2.21.1",
+          "Pickles.CommandLine": "2.21.1",
           "SpecFlow.NUnit": "3.7.38",
           "SpecFlow.Plus.LivingDocPlugin": "3.7.10",
           "NUnit": "3.13.1"
@@ -536,6 +538,8 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Pickles/2.21.1": {},
+      "Pickles.CommandLine/2.21.1": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -1587,6 +1591,20 @@
       "sha512": "sha512-I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
       "path": "nunit3testadapter/3.17.0",
       "hashPath": "nunit3testadapter.3.17.0.nupkg.sha512"
+    },
+    "Pickles/2.21.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ESeFyF9uCf1oBCnu+NSZIt03mN02knuCHeGb0NwJr/G4ga/9bPvsWWASYDO1ISz7aUDZvxVQ5HtOfjb2hLeNlQ==",
+      "path": "pickles/2.21.1",
+      "hashPath": "pickles.2.21.1.nupkg.sha512"
+    },
+    "Pickles.CommandLine/2.21.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNtrlK2RJqy6/a9cldbAg1JtNfK+cxr5EcJEmTYm2BZnjAsTKlozRrJtvTtB/nm45509gB1njgHg8UpLvBZ/Dg==",
+      "path": "pickles.commandline/2.21.1",
+      "hashPath": "pickles.commandline.2.21.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

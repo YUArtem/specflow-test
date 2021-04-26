@@ -26,5 +26,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\accou\.nuget\packages\bodi\1.5.0</PkgBoDi>
+    <PkgPickles_CommandLine Condition=" '$(PkgPickles_CommandLine)' == '' ">C:\Users\accou\.nuget\packages\pickles.commandline\2.21.1</PkgPickles_CommandLine>
+    <PkgPickles Condition=" '$(PkgPickles)' == '' ">C:\Users\accou\.nuget\packages\pickles\2.21.1</PkgPickles>
   </PropertyGroup>
 </Project>

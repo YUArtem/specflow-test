@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zAS2axm2FAA1HEHLV+IxvNU08DLSrHM7AL72icI/jaKF/5n3y50xcfBV1jyfAlm/0hLtIwTMqrQ8nO1hOaRJyA==",
+  "dgSpecHash": "o+/soRWoEN/RyIWVtkFvnm5u95iVqWdMDGA6+EhhAliwqLkvkjQPn4lV0OqJAcxEXxR7wNI5R21cdg2IvEjOHw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\SpecFlowProject\\SpecFlowProject.csproj",
+  "projectFilePath": "C:\\Projects\\specflow-test\\SpecFlowProject\\SpecFlowProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\accou\\.nuget\\packages\\altunitydriver\\1.6.3\\altunitydriver.1.6.3.nupkg.sha512",
     "C:\\Users\\accou\\.nuget\\packages\\appium.webdriver\\4.3.1\\appium.webdriver.4.3.1.nupkg.sha512",
@@ -31,6 +31,8 @@
     "C:\\Users\\accou\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\accou\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
     "C:\\Users\\accou\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
+    "C:\\Users\\accou\\.nuget\\packages\\pickles\\2.21.1\\pickles.2.21.1.nupkg.sha512",
+    "C:\\Users\\accou\\.nuget\\packages\\pickles.commandline\\2.21.1\\pickles.commandline.2.21.1.nupkg.sha512",
     "C:\\Users\\accou\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\accou\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\accou\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

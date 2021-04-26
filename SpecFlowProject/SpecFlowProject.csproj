@@ -8,6 +8,8 @@
         <PackageReference Include="AltUnityDriver" Version="1.6.3" />
         <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+        <PackageReference Include="Pickles" Version="2.21.1" />
+        <PackageReference Include="Pickles.CommandLine" Version="2.21.1" />
         <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.7.10" />
         <PackageReference Include="SpecFlow.NUnit" Version="3.7.38" />
         <PackageReference Include="nunit" Version="3.13.1" />

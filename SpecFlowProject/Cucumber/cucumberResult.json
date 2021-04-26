@@ -1,0 +1,113 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "SimpleGameTest",
+    "tags": [
+      {
+        "name": "@SimpleAndroidGameTest"
+      }
+    ],
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Check if the game was open",
+        "line": 7,
+        "type": "scenario",
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "Then",
+            "name": "I should see main menu",
+            "line": 8,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I close the game",
+            "line": 9,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Press Space and check if player in the room",
+        "line": 11,
+        "type": "scenario",
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I pressed Space button",
+            "line": 12,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "When",
+            "name": "the player enter to the room",
+            "line": 13,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I close the game",
+            "line": 14,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "Type player name in the input field and check input field name",
+        "line": 16,
+        "type": "scenario_outline",
+        "tags": [],
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "I typed <playerName> in the input field",
+            "line": 17,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I should see <playerName> in the input field",
+            "line": 18,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          },
+          {
+            "keyword": "Then",
+            "name": "I close the game",
+            "line": 19,
+            "result": {
+              "status": "inconclusive",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
