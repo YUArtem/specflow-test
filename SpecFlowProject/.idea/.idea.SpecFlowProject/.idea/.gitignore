@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.SpecFlowProject.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../:\Projects\SpecFlowProject\.idea\.idea.SpecFlowProject\.idea/dataSources/
+/dataSources.local.xml
